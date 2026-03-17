@@ -4,17 +4,27 @@ This repository serves as a public gallery for the output submissions of Program
 
 The purpose of this repository is to allow everyone in the class to view the outputs of different implementations while keeping the source code submissions separate.
 
+## Initial Setup
+
+1. Fork this repository to your own GitHub account.
+
+2. Copy the link of your forked repository.
+
+3. Open VS Code and clone your fork using:
+
+git clone <your-forked-repo-link>
+
+4. Open the cloned folder in VS Code.
+
+5. Create your folder in the main root of the repository as instructed below and add your screenshots and video.
+
+6. Open the terminal in VS Code and follow the commands given below.
+
 ## Submission Instructions
 
 Follow the steps below carefully.
 
-1. Fork this repository to your own GitHub account.
-
-2. In your forked repository, open the folder named:
-
-Project01-Document
-
-3. Inside this folder create a new folder using the following naming format:
+1. Create a new folder in the main root (same level as other folders) using the following naming format:
 
 BSXX-25XXX-Name
 
@@ -22,7 +32,7 @@ Example
 
 BSCS-24009-Abdullah-Nawaz
 
-4. Inside your folder upload your output screenshots and video.
+2. Inside your folder upload your output screenshots and video.
 
 Use the following naming format for files.
 
@@ -36,9 +46,29 @@ Video
 
 vid01.mp4
 
-5. After uploading your files, commit the changes to your forked repository.
+## First Time Submission
 
-6. Create a Pull Request from your forked repository to the original repository.
+Run in terminal:
+
+git add .
+git commit -m "initial submission"
+git push origin main
+
+Then go to GitHub and create a Pull Request.
+
+## Updating Your Submission Later
+
+If you want to add more screenshots or videos later, run:
+
+git pull origin main
+git add .
+git commit -m "updated submission"
+git push origin main
+
+## Important Notes
+
+- Create Pull Request only once.
+- After that, every push will automatically update your existing Pull Request.
 
 ## Important Guidelines
 
